@@ -61,7 +61,7 @@ if uploaded_file is not None:
         resume_text = None
     
     if resume_text:
-        st.subheader("📜 Resume Preview")
+        st.subheader("📜  Resume Preview")
         st.text_area("Extracted Text", resume_text, height=200)
         
         st.subheader("🔍 Resume Analysis")
